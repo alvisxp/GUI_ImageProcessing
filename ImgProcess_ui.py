@@ -106,7 +106,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Image Processing GUI"))
         self.imported_label.setText(_translate("MainWindow", "Imported Image"))
         self.processed_label.setText(_translate("MainWindow", "Processed Image"))
         self.toGrayscale.setText(_translate("MainWindow", "Convert to Grayscale"))
